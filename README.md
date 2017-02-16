@@ -12,6 +12,8 @@ In order to install this template, use the *Managed Script Plugin* to insert thi
 
 ## Usage
 
+First of all, using the plugin, create a managed file of type _Extended Email Publisher Groovy Template_ with id _jenkins-github-changelog_. This file must contain the content of the _jenkins-github-changelog.groovy_ script, existing in this repository.
+
 In your _Jenkinsfile_, in order to obtain the resolved content of the script, reference the managed script such it is indicated on the example bellow:
 
 ```
