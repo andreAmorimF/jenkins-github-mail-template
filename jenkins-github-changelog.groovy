@@ -2,8 +2,8 @@
 
 import hudson.model.Result
 
-// Global variables
-def baseUrl="https://github.deezerdev.com"
+// Global variables (Change the baseUrl!!!)
+def baseUrl="https://github.mycompany.com"
 def parentProject = project.getParent()
 def organization = parentProject.getParent()
 def buildStatusColor = (build.result == Result.SUCCESS ? "green" : (build.result == Result.ABORTED ? "orange" : "red"))
