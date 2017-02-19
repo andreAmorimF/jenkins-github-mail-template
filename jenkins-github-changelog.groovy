@@ -69,7 +69,4 @@ if(changeSet != null && !changeSet.isEmpty()) {%>
   </TABLE>
 <BR/>
 
-
-<p> <small><i> "Being in production is just a state of mind - Unknown programmer" </i> </small> </p>
-
 </BODY>
